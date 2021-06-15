@@ -47,7 +47,12 @@ nav ul a{
 }
 /* Direct child selector, only for the paragraph that is inside the article */
 article>p{
+    /* CSS typography properties */
 font-size: 24px;
+font-weight: bold;
+line-height: 1.5;
+text-transform: lowercase;
+text-align: center;
 }
 /* Adjacent sibling selector */
 h3+ul {
