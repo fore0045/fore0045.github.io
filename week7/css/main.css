@@ -157,6 +157,7 @@ nav {
     left: 0;
     width: 100%;
     background-color: rgba(0, 0, 0, .8);
+    /* z-index traer adelante 999, llevar atras -1 */
     z-index: 999;
 }
 
