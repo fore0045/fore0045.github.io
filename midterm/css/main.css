@@ -1,0 +1,91 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after{
+    box-sizing: inherit;
+}
+/* Setting box-sizing for every element on the page */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: #aad4cf;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #D4E9E7;
+}
+.banner{
+    position: relative;
+}
+h1{
+    position: absolute;
+    top: 15%;
+    text-align: center;
+    color: white;
+    padding: 2em 0;
+    width: 100%;
+    font-size: 4rem;
+    font-weight: lighter;
+}
+img{
+    width: 100%;
+}
+
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    width: 33%;
+    box-sizing: border-box;
+    text-align: center;
+    margin: -2em;
+}
+nav ul a{
+    display: block;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+}
+#story{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+h2{
+    font-size: 2.3rem;
+    font-weight: lighter;
+}
+
+article{
+    padding: 10px;
+}
+figure img{
+    width: 20%;
+    height: auto;
+    display: block;
+    float: left;
+    margin-right: 1em;
+}
+article>p{
+    line-height: 1.5;
+}
+h3{
+    font-size: 1.8rem;
+    font-weight: lighter;
+}
+form{
+    border: 1px solid black;
+    padding: 20px;
+}
+footer{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    
+}
