@@ -87,5 +87,11 @@ form{
 footer{
     padding-top: 1em;
     padding-bottom: 1em;
-    
+}
+button{
+    background-color: #D4E9E7;
+    font-size: .5rem;
+    padding: 1em 1em 1em 1em;
+    margin-top: 1.5em;
+    border: 1px solid black;
 }
