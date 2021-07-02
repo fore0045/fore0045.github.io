@@ -7,20 +7,23 @@ html{
     box-sizing: inherit;
 }
 /* Setting box-sizing for every element on the page */
-
+/* Styling font and background */
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     background-color: #aad4cf;
 }
+/* Defining the container measure, color and margin */
 .container {
     max-width: 1200px;
     margin: 0 auto;
     background-color: #D4E9E7;
 }
+/* links banner class for starfish image and relative position */
 .banner{
     position: relative;
 }
+/* puts the title H1 on the top and in the middle of the banner */
 .title{
     position: absolute;
     padding-top: 16%;
@@ -30,10 +33,11 @@ body {
     font-size: 4rem;
     font-weight: lighter;
 }
+/* Defines the dimnsion of the image to keep consistency with different browsers */
 img{
     width: 100%;
 }
-
+/* resets style for navigation list */
 nav ul{
     list-style: none;
     margin-top: 0em;
@@ -42,12 +46,14 @@ nav ul{
 nav ul li{
     list-style: none;
 }
+/* sets inline shows for navigation list */
 nav ul li{
     display: inline-block;
     width: 33%;
     box-sizing: border-box;
     text-align: center;
 }
+/* styling navigation list */
 nav ul a{
     display: block;
     text-decoration: none;
@@ -56,43 +62,83 @@ nav ul a{
     height: 2em;
     padding-top: .5em;
 }
+/* styling borders in the middle of nav list */
 #story{
     border-left: 1px solid black;
     border-right: 1px solid black;
 }
+/* Styling H2 */
 h2{
     font-size: 2.3rem;
     font-weight: lighter;
+    margin-bottom: 0em;
 }
-
+/* Styling article */
 article{
     padding: 10px;
 }
+/* Styling position and width of the zoom of the star image */
 figure img{
     width: 20%;
     height: auto;
     display: block;
     float: left;
     margin-right: 1em;
+    margin-left: -2.5em;
 }
+/* Styling paragraph */
 article>p{
     line-height: 1.5;
 }
+/* Styling H3 and looking for the way to make it similar to the assignment */
 h3{
     font-size: 1.8rem;
     font-weight: lighter;
+    margin-bottom: .5em;
 }
+/* Adding border to the form */
 form{
     border: 1px solid black;
     padding: 20px;
+    padding-top: 40px;
 }
+/* Styling Your name label */
+.formname{
+    width: 100%;
+    margin: .5em 0 2em 0;
+    height: 2.5em;
+    border: gray;
+}
+/* Styling Your email label */
+.formemail{
+    width: 100%;
+    margin: .5em 0 2em 0;
+    height: 2.5em;
+    border: gray;
+}
+/* Styling your message label */
+.formtextarea{
+    width: 100%;
+    margin: .5em 0 .5em 0;
+    border: gray;
+}
+label{
+    font-size: 1.2em;
+}
+h4{
+    font-size: 1.2rem;
+    font-weight: lighter;
+    margin: 1em 0 1em 0;
+}
+/* Adding the correct position to the footer */
 footer{
     padding: 1em 1em 2em 0;
     text-align: right;
 }
+/* Styling the SEND button */
 button{
     background-color: #D4E9E7;
-    font-size: .5rem;
+    font-size: .7rem;
     padding: 1em 1em 1em 1em;
     margin-top: 1.5em;
     border: 1px solid black;
