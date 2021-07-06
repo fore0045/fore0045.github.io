@@ -172,5 +172,14 @@ p{
     .banner h1{
         color: white;
     }
+    /* App Section */
+    .app img{
+        width: 40%;
+        float: left;
+        margin-right: 1em;
+    }
+    .app .btn{
+        float: right;
+    }
 }
     
