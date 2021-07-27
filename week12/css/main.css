@@ -1,0 +1,25 @@
+body{
+    font-family: 'Fira Sans', sans-serif;
+}
+h1{
+    font-family: 'Otomanopee One', sans-serif;
+    font-weight: normal;
+    font-size: 3rem;
+}
+/* Change the size of the icons and color */
+h1 i::before{
+    font-size: 3rem;
+    color: blueviolet;
+}
+.im-heart::before{
+    color: pink;
+    font-size: 2rem;
+}
+/* Make the map and the video embedded to be responsive to the screen size */
+iframe{
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2em;
+    display: block;
+}
