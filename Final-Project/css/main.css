@@ -137,3 +137,146 @@ table {
 /* -------------------------------------------------------------
                             CUSTOM STYLES                       
 ---------------------------------------------------------------*/
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.5;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: inherit;
+    line-height: inherit;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* LoVe HAte */
+a,
+a:link,
+a:visited {
+    color: inherit;
+}
+
+a:hover,
+a:focus {
+    color: #c78c06;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: bold;
+}
+
+.nav-list img {
+    max-width: 70px;
+}
+
+.main-nav {
+    background-color: #222;
+    background-size: cover;
+}
+
+.nav-list {
+    text-align: center;
+    color: #c78c06;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.active {
+    background-color: #c78c06;
+    color: #222;
+}
+
+/* LoVe HAte seudoclasses added Link, visited, Hover, Action Always styling the navigation*/
+.nav-list a,
+.nav-list a:link,
+.nav-list a:visited {
+    display: block;
+    padding: 1em 0;
+    text-decoration: none;
+}
+
+.nav-list a:hover,
+.nav-lista:focus,
+.nav-list a.current {
+    background-color: #c78c06;
+    color: inherit;
+}
+
+/* REVIEW!!!! */
+.nav-list {
+    justify-content: space-evenly;
+}
+
+.nav-list li {
+    flex-direction: column;
+    width: 100%;
+}
+
+.nav-list div:nth-child(7) {
+    flex-wrap: wrap;
+    flex-basis: 80%;
+}
+
+.btn-search {
+    background-color: #222;
+    border: 1px solid #c78c06;
+    color: #c78c06;
+}
+
+/* REVIEW!!! */
+
+/* Header Styles */
+.banner {
+    height: 600px;
+    background: url("../images/main-banner.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.banner-info {
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 1em;
+
+}
+
+h1 {
+    font-size: 4em;
+    color: white;
+}
+
+.banner-info p {
+    color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+/* About Us Section Styles */
+
+.about-us {
+    background-color: #ffe6ac;
+    ;
+}
+
+.content {
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.content img {
+    width: 100%;
+}
