@@ -232,10 +232,16 @@ h5 {
     flex-basis: 80%;
 }
 
-.btn-search {
-    background-color: #222;
+.btn-search button {
+    background: none;
     border: 1px solid #c78c06;
     color: #c78c06;
+    border-radius: 4px;
+    padding: 0.5em;
+}
+
+.nav-list .input-search form {
+    width: 100%;
 }
 
 /* REVIEW!!! */
