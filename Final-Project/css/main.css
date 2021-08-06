@@ -217,7 +217,7 @@ h5 {
     color: inherit;
 }
 
-/* REVIEW!!!! */
+/* REVIEW OPEN!!!! */
 .nav-list {
     justify-content: space-evenly;
 }
@@ -240,11 +240,16 @@ h5 {
     padding: 0.5em;
 }
 
-.nav-list .input-search form {
+.input-search {
     width: 100%;
 }
 
-/* REVIEW!!! */
+.input-search,
+.btn-search {
+    display: inline-block;
+}
+
+/* REVIEW CLOSE!!! */
 
 /* Header Styles */
 .banner {
@@ -257,7 +262,7 @@ h5 {
     margin: 0 auto;
     background-color: rgba(0, 0, 0, .5);
     padding: 1em;
-
+    background-position: center;
 }
 
 h1 {
@@ -269,6 +274,15 @@ h1 {
     color: white;
     padding-top: 1em;
     padding-bottom: 1em;
+}
+
+.btn-light {
+    background: #c78c06;
+    border: none;
+    padding: 2em;
+    font-size: 12px;
+    font-family: 'Open Sans',
+        sans-serif;
 }
 
 /* About Us Section Styles */
@@ -285,4 +299,179 @@ h1 {
 
 .content img {
     width: 100%;
+}
+
+h2 {
+    font-size: 2.5em;
+    padding-top: .5em;
+}
+
+.about-us p {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+/* Our Services Styles */
+
+.our-services {
+    padding: 1em;
+}
+
+
+.digital,
+.marketing,
+.video,
+.web,
+.print {
+    background-color: #ffe6ac;
+    margin-top: 1em;
+}
+
+.digital,
+.marketing,
+.video,
+.web,
+.print,
+img {
+    width: 100%;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+.digital-content,
+.marketing-content,
+.video-content,
+.web-content,
+.print-content {
+    padding: 1em;
+}
+
+.our-services p {
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+.btn-dark {
+    background-color: black;
+    color: white;
+    padding: 1.5em;
+    border: none;
+    font-family: 'Open Sans',
+        sans-serif;
+}
+
+.im {
+    font-size: 1em;
+}
+
+/* Our Vision Styles */
+.our-vision {
+    background: url("../images/vision.jpg");
+    background-size: cover;
+}
+
+.our-vision h4 {
+    color: white;
+    font-size: 2em;
+}
+
+.our-vision p {
+    color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.vision {
+    padding: 1em;
+}
+
+.btn-medium {
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+    padding: 1.5em;
+    border: .5px solid #c78c06;
+}
+
+/* Our Team Styles */
+.our-team {
+    padding: 1em;
+}
+
+.john,
+.bob {
+    background-color: #ffe6ac;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+/* ?????????? margen imagen  */
+.team img {
+    margin-bottom: 0em;
+}
+
+/* ?????? color linea */
+div>hr .team {
+    color: #c78c06;
+}
+
+/* Contact Us Styles */
+.contact-us {
+    padding: 1em;
+}
+
+.contact-form input {
+    width: 100%;
+    margin-bottom: 0.5em;
+}
+
+.contact-form textarea {
+    width: 100%;
+    margin-bottom: 0.5em;
+}
+
+.btn-small {
+    background-color: black;
+    color: #c78c06;
+    border: none;
+}
+
+.contact h2 {
+    padding-bottom: 0.5em;
+}
+
+/* Hours of Operation Styles */
+.hours h3 {
+    padding-top: .5em;
+}
+
+.table {
+    border: 1px solid gray;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.table th:nth-child(n),
+.table td:nth-child(n) {
+    border: 1px solid black;
+    padding: 1em;
+}
+
+.table th {
+    background-color: #ffe6ac;
+}
+
+.location iframe {
+    width: 100%
+}
+
+.site-footer {
+    background-color: #222;
+    color: #c78c06;
+    padding: 1em;
+}
+
+.footer p {
+    padding-top: 1em;
 }
