@@ -184,6 +184,10 @@ h5 {
     max-width: 70px;
 }
 
+.logo {
+    text-align: left;
+}
+
 .main-nav {
     background-color: #222;
     background-size: cover;
@@ -217,39 +221,23 @@ h5 {
     color: inherit;
 }
 
-/* REVIEW OPEN!!!! */
-.nav-list {
-    justify-content: space-evenly;
-}
-
-.nav-list li {
-    flex-direction: column;
-    width: 100%;
-}
-
-.nav-list div:nth-child(7) {
-    flex-wrap: wrap;
-    flex-basis: 80%;
-}
-
-.btn-search button {
+.input-search button {
     background: none;
     border: 1px solid #c78c06;
     color: #c78c06;
-    border-radius: 4px;
-    padding: 0.5em;
+    height: 2.5em;
+    margin-left: -.3em;
 }
 
-.input-search {
-    width: 100%;
+.input-search input {
+    height: 2.5em;
 }
 
-.input-search,
-.btn-search {
+.input-search button,
+input {
     display: inline-block;
+    vertical-align: middle;
 }
-
-/* REVIEW CLOSE!!! */
 
 /* Header Styles */
 .banner {
@@ -259,15 +247,16 @@ h5 {
 }
 
 .banner-info {
-    margin: 0 auto;
+    margin-top: 25%;
     background-color: rgba(0, 0, 0, .5);
     padding: 1em;
-    background-position: center;
+    position: absolute;
 }
 
 h1 {
     font-size: 4em;
     color: white;
+    padding-top: 0.5em;
 }
 
 .banner-info p {
@@ -411,9 +400,8 @@ h3 {
     margin-bottom: 0em;
 }
 
-/* ?????? color linea */
-div>hr .team {
-    color: #c78c06;
+hr {
+    background-color: #c78c06;
 }
 
 /* Contact Us Styles */
