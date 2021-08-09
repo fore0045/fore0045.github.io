@@ -567,4 +567,53 @@ hr {
     .btn-medium {
         width: 15%;
     }
+
+    /* Our Team Vision */
+
+    .team img {
+        max-width: 600px;
+    }
+
+    .team {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 3,
+            1fr;
+        grid-template-areas:
+            "seven seven"
+            "eight nine"
+            "ten eleven";
+    }
+
+    .team h2 {
+        grid-area: seven;
+    }
+
+    .john-image {
+        grid-area: eight;
+    }
+
+    .john {
+        grid-area: nine;
+        margin-bottom: -1em;
+    }
+
+    .bob {
+        grid-area: ten;
+        margin-bottom: 0;
+    }
+
+    .bob-image {
+        grid-area: eleven;
+    }
+
+    /* Contact Us Styles */
+
+    .contact {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
 }
