@@ -239,6 +239,10 @@ input {
     vertical-align: middle;
 }
 
+#search {
+    color: gray;
+}
+
 /* Header Styles */
 .banner {
     height: 600px;
@@ -395,13 +399,13 @@ h3 {
     margin-bottom: 1em;
 }
 
-/* ?????????? margen imagen  */
+/* Image margin bottom????? */
 .team img {
     margin-bottom: 0em;
 }
 
 hr {
-    background-color: #c78c06;
+    border: 1px solid #c78c06;
 }
 
 /* Contact Us Styles */
@@ -462,4 +466,105 @@ hr {
 
 .footer p {
     padding-top: 1em;
+}
+
+/*-------------------------------------------------------------------------
+                  DESKTOP STYLES------------------------------------------*/
+
+@media screen and (min-width: 760px) {
+    html {
+        font-size: 15px;
+    }
+
+    /* Navigation */
+
+    .nav-list {
+        display: flex;
+        max-width: 1200px;
+        margin: 0 auto;
+        font-size: 14px;
+    }
+
+    .nav-list li {
+        flex: 1;
+    }
+
+    /* Main Banner Section */
+    /* ???????????? */
+    .banner-info {
+        max-width: 1200px;
+        margin: 0 auto;
+        position: absolute;
+    }
+
+    .content {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex: 1;
+    }
+
+    .content img {
+        max-width: 600px;
+    }
+
+    .about-us-info {
+        margin-left: 1em;
+    }
+
+    .our-services-info {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: 3, 1fr;
+        grid-template-areas:
+            "one one one one one one"
+            "two two two three three three"
+            "four four five five six six";
+        gap: 1em;
+    }
+
+    .our-services-info h2 {
+        grid-area: one;
+    }
+
+    .digital {
+        grid-area: two;
+    }
+
+    .marketing {
+        grid-area: three;
+    }
+
+    .video {
+        grid-area: four;
+        margin-top: -0.2em;
+    }
+
+    .web {
+        grid-area: five;
+        margin-top: -0.2em;
+    }
+
+    .print {
+        grid-area: six;
+        margin-top: -0.2em;
+    }
+
+    .btn-dark {
+        width: 100%;
+        padding: 2em;
+        font-size: 16px;
+    }
+
+    /* Our Vision Section */
+    .vision {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .btn-medium {
+        width: 15%;
+    }
 }
