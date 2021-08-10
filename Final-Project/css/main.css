@@ -614,6 +614,36 @@ hr {
     .contact {
         max-width: 1200px;
         margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 3,
+            1fr;
+        grid-template-areas:
+            "head head"
+            "message location"
+            "hours hours";
+        gap: 1em;
     }
 
+    .contact h2 {
+        grid-area: head;
+    }
+
+    .message {
+        grid-area: message;
+    }
+
+    .location {
+        grid-area: location;
+    }
+
+    .hours {
+        grid-area: hours;
+    }
+
+    /* Footer Styles */
+    .footer {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
 }
