@@ -181,7 +181,7 @@ h5 {
 }
 
 .nav-list img {
-    max-width: 70px;
+    max-width: 80px;
 }
 
 .logo {
@@ -221,16 +221,23 @@ h5 {
     color: inherit;
 }
 
+.input-search {
+    display: flex;
+}
+
+
 .input-search button {
     background: none;
     border: 1px solid #c78c06;
     color: #c78c06;
     height: 2.5em;
     margin-left: -.3em;
+    flex-basis: 60px;
 }
 
 .input-search input {
     height: 2.5em;
+    flex-grow: 1;
 }
 
 .input-search button,
@@ -246,19 +253,18 @@ input {
 /* Header Styles */
 .banner {
     height: 600px;
+    padding-top: 100px;
     background: url("../images/main-banner.jpg") no-repeat center center;
     background-size: cover;
 }
 
 .banner-info {
-    margin-top: 25%;
     background-color: rgba(0, 0, 0, .5);
     padding: 1em;
-    position: absolute;
 }
 
 h1 {
-    font-size: 4em;
+    font-size: 5em;
     color: white;
     padding-top: 0.5em;
 }
@@ -295,7 +301,7 @@ h1 {
 }
 
 h2 {
-    font-size: 2.5em;
+    font-size: 3.5em;
     padding-top: .5em;
 }
 
@@ -330,7 +336,7 @@ img {
 }
 
 h3 {
-    font-size: 2em;
+    font-size: 2.4em;
 }
 
 .digital-content,
@@ -361,7 +367,7 @@ h3 {
 
 /* Our Vision Styles */
 .our-vision {
-    background: url("../images/vision.jpg");
+    background: url("../images/vision.jpg") no-repeat center;
     background-size: cover;
 }
 
@@ -402,6 +408,7 @@ h3 {
 /* Image margin bottom????? */
 .team img {
     margin-bottom: 0em;
+    display: block;
 }
 
 hr {
@@ -421,6 +428,7 @@ hr {
 .contact-form textarea {
     width: 100%;
     margin-bottom: 0.5em;
+    height: 200px;
 }
 
 .btn-small {
@@ -483,6 +491,7 @@ hr {
         max-width: 1200px;
         margin: 0 auto;
         font-size: 14px;
+        align-items: center;
     }
 
     .nav-list li {
@@ -490,12 +499,23 @@ hr {
     }
 
     /* Main Banner Section */
-    /* ???????????? */
+
+
     .banner-info {
         max-width: 1200px;
         margin: 0 auto;
-        position: absolute;
     }
+
+    .banner-info h1 {
+        font-size: 5.5em;
+    }
+
+    .btn-light {
+        font-size: 16px;
+        width: 23%;
+    }
+
+    /* About Us section */
 
     .content {
         max-width: 1200px;
@@ -510,6 +530,16 @@ hr {
 
     .about-us-info {
         margin-left: 1em;
+    }
+
+    .about-us-info h2 {
+        font-size: 3em;
+    }
+
+    /* Our Services Section */
+    .our-services-info h2 {
+        font-size: 3em;
+        margin-bottom: -.5em;
     }
 
     .our-services-info {
@@ -566,9 +596,15 @@ hr {
 
     .btn-medium {
         width: 15%;
+        font-size: 1.2em;
     }
 
-    /* Our Team Vision */
+    /* Our Team Section */
+
+    .team h2 {
+        font-size: 3em;
+    }
+
 
     .team img {
         max-width: 600px;
@@ -611,6 +647,11 @@ hr {
 
     /* Contact Us Styles */
 
+    .contact h2 {
+        font-size: 3em;
+        padding-bottom: 0em;
+    }
+
     .contact {
         max-width: 1200px;
         margin: 0 auto;
@@ -639,6 +680,10 @@ hr {
 
     .hours {
         grid-area: hours;
+    }
+
+    .btn-small {
+        font-size: 1.2em;
     }
 
     /* Footer Styles */
