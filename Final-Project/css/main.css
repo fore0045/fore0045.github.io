@@ -137,6 +137,8 @@ table {
 /* -------------------------------------------------------------
                             CUSTOM STYLES                       
 ---------------------------------------------------------------*/
+/* Mobile first */
+
 html {
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
@@ -166,6 +168,8 @@ a:link,
 a:visited {
     color: inherit;
 }
+
+/* Navigation List Styles */
 
 a:hover,
 a:focus {
@@ -231,8 +235,7 @@ h5 {
     border: 1px solid #c78c06;
     color: #c78c06;
     height: 2.5em;
-    margin-left: -.3em;
-    flex-basis: 60px;
+    flex-basis: 33px;
 }
 
 .input-search input {
@@ -366,6 +369,7 @@ h3 {
 }
 
 /* Our Vision Styles */
+
 .our-vision {
     background: url("../images/vision.jpg") no-repeat center;
     background-size: cover;
@@ -394,6 +398,7 @@ h3 {
 }
 
 /* Our Team Styles */
+
 .our-team {
     padding: 1em;
 }
@@ -405,7 +410,6 @@ h3 {
     margin-bottom: 1em;
 }
 
-/* Image margin bottom????? */
 .team img {
     margin-bottom: 0em;
     display: block;
@@ -416,6 +420,7 @@ hr {
 }
 
 /* Contact Us Styles */
+
 .contact-us {
     padding: 1em;
 }
@@ -442,6 +447,7 @@ hr {
 }
 
 /* Hours of Operation Styles */
+
 .hours h3 {
     padding-top: .5em;
 }
@@ -484,7 +490,7 @@ hr {
         font-size: 15px;
     }
 
-    /* Navigation */
+    /* Navigation List*/
 
     .nav-list {
         display: flex;
@@ -537,6 +543,7 @@ hr {
     }
 
     /* Our Services Section */
+
     .our-services-info h2 {
         font-size: 3em;
         margin-bottom: -.5em;
@@ -589,6 +596,7 @@ hr {
     }
 
     /* Our Vision Section */
+
     .vision {
         max-width: 1200px;
         margin: 0 auto;
